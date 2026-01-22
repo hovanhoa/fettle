@@ -8,9 +8,9 @@ const Home: NextPage = () => {
     <div className='h-full w-full '>
       <div className="mt-20 absolute inset-0 bg-[url(/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
       <div className="w-full h-40 absolute bg-light-purple dark:purple dark:bg-black">
-        <div className="sm:ml-0 ml-5 mr-0 mt-3 md:pl-80 md:pr-80 sm:w-full h-full bg-purple-500 dark:bg-black flex">
+        <div className="sm:ml-0 ml-5 mr-0 mt-10 md:pl-80 md:pr-80 sm:w-full h-full bg-purple-500 dark:bg-black flex">
           <a href="https://hovanhoa.net" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
-            <Image src="/avatar.png" width={64} height={64} className="w-16 h-16 rounded-full border-4 border-white object-cover" alt="Avatar" />
+            <h1 className="text-white text-2xl font-bold">hovanhoa</h1>
           </a>
         </div>
       </div>
